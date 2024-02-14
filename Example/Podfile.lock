@@ -1,0 +1,23 @@
+PODS:
+  - STAnnotation (0.0.1)
+  - STLifeCircle (0.0.1):
+    - STAnnotation
+
+DEPENDENCIES:
+  - STLifeCircle (from `../../STLifeCircle`)
+
+SPEC REPOS:
+  https://github.com/stephen5652/StPodSpecs.git:
+    - STAnnotation
+
+EXTERNAL SOURCES:
+  STLifeCircle:
+    :path: "../../STLifeCircle"
+
+SPEC CHECKSUMS:
+  STAnnotation: ea0dcdbf740b57237d29384c521e4887d00031df
+  STLifeCircle: 6104cae95f69f25bb9638ecaa067a77f9d1509c7
+
+PODFILE CHECKSUM: 1d2b12068e6424e982b364b25362d884642575fa
+
+COCOAPODS: 1.14.3
